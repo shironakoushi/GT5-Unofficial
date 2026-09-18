@@ -94,7 +94,7 @@ public class MTEEnergyDistributor extends MTETransformer {
 
     @Override
     public long maxEUStore() {
-        return 512L + GTValues.V[this.mTier] * 320L;
+        return 512L + GTValues.V[this.mTier] * 320L * 4L;
     }
 
     @Override
