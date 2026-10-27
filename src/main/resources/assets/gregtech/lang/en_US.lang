@@ -1773,8 +1773,8 @@ gtpp.material.ZrCl4=ZrCl4
 
 # Air Filter
 item.GTPP.air_filter.name=Air Filter
-item.GTPP.air_filter.name.t1=Air Filter [Tier 1]
-item.GTPP.air_filter.name.t2=Air Filter [Tier 2]
+item.GTPP.air_filter.name.t1=Air Filter (Tier 1)
+item.GTPP.air_filter.name.t2=Air Filter (Tier 2)
 
 GTPP.tooltip.air_filter.0=An Air filter for Atmospheric Reconditioning.
 GTPP.tooltip.air_filter.1=%d/%d uses left.

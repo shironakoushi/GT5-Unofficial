@@ -56,7 +56,9 @@ public class MTEHatchMufflerAdvanced extends MTEHatchMuffler {
     public String[] getDescription() {
         final String filter = mTier < 5
             ? StatCollector.translateToLocal("gt.blockmachines.muffler_advanced.filter.desc")
-            : StatCollector.translateToLocalFormatted("gt.blockmachines.muffler_advanced.filter_tier2.desc", "[T2]");
+            : StatCollector.translateToLocalFormatted(
+                "gt.blockmachines.muffler_advanced.filter_named.desc",
+                StatCollector.translateToLocal("item.GTPP.air_filter.name.t2"));
         final String[] localized = GTSplit.splitLocalizedFormatted(
             "gt.blockmachines.muffler_advanced.desc",
             filter,
