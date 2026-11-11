@@ -9,7 +9,7 @@ import gregtech.nei.GTNEIDefaultHandler;
 import gregtech.nei.NEIScrollArea;
 
 /**
- * The item outputs of the multiblock centrifuge scroll when a recipe has more than its output slots.
+ * The item outputs of the multiblock centrifuge scroll when a recipe has more than its nine output slots.
  */
 @ParametersAreNonnullByDefault
 @MethodsReturnNonnullByDefault
